@@ -9,7 +9,7 @@ const app = express();
 
 // CORS - allow requests from Vercel frontend and local dev
 const allowedOrigins = [
-  process.env.VITE_RENDER_URL?.replace(/\/$/, "") || "https://jumu-ai.onrender.com",
+  process.env.VITE_RENDER_URL?.replace(/\/$/, "") || "https://jumu-ai-8sp9.vercel.app",
   /https:\/\/.*\.vercel\.app$/,
   "https://jumuai.stemlensnetwork.com",
   "http://localhost:5173",
